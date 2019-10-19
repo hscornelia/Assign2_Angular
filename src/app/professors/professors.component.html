@@ -1,0 +1,18 @@
+<h2>Professors' list</h2>
+
+<div class="layout">
+    <ul class="professors">
+        <li *ngFor = "let professor of professors"> 
+            <a routerLink="/detail/{{professor.rating}}">
+            <span class="badge">{{professor.rating}}</span>{{professor.name}}
+            </a>
+        </li>
+    </ul>
+
+
+    <!--Make this hover to the right
+    <app-professor-details class="details" [professor]="selectedProfessor"></app-professor-details>
+    -->
+
+
+</div>

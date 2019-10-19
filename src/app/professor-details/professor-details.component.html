@@ -1,0 +1,12 @@
+<div class="layout">
+        <div *ngIf="professor">
+            <h2>{{professor.name | uppercase}} Details</h2>
+            <div class="key"><span>Rating: </span>{{professor.rating}}</div>
+            <div>
+                <label>Name:
+                    <input [(ngModel)] = "professor.name" placeholder = "name"/>
+                </label>
+            </div>
+            <button (click)="goBack()">go back</button>
+    </div>
+</div>

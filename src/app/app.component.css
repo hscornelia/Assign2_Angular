@@ -1,0 +1,25 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #369;
+    padding: 15px;
+    
+}
+
+
+
+nav a{
+    display: inline-block;
+    margin: 6px;
+    border: #369 solid;
+    background-color: #eee;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav a:hover{
+    background-color: rgb(66, 136, 206);
+}
